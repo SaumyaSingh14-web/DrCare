@@ -5,6 +5,7 @@ function Navbar(){
                 <li>Home</li>
                 <li>About</li>
                 <li>contact</li>
+                <li>departments</li>
             </ul>
         </div>
     );
