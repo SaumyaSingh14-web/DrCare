@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
-import bgimage from "./images/img1.jpg";
-import Buttons from "./components/Buttons";
+//import bgimage from "./images/img1.jpg";
+//import Buttons from "./components/Buttons";
 import Allcards from "./components/Allcards";
 
 function App() {
