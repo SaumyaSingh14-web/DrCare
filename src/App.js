@@ -1,25 +1,24 @@
 import Navbar from "./components/Navbar";
-//import bgimage from "./images/img1.jpg";
-//import Buttons from "./components/Buttons";
+import bgimage from "./images/img1.jpg";
+import Buttons from "./components/Buttons";
 import Allcards from "./components/Allcards";
 
 function App() {
   return (
     <div>
-      <div>
-        <Navbar />
-        <Allcards />
+      <Navbar />
+      <div className="mx-auto md:hidden">
+        <img src={bgimage} />
       </div>
 
-      {/* <div>
-        <div className="mx-auto">
-          <img src={bgimage} alt="" />
+      <div className="bg-[url('./images/img1.jpg')] hidden md:flex min-w-full min-h-screen bg-no-repeat bg-cover px-20">
+        <div>
+          Helping Your Stay Happy One Everyday we bring hope and smile to the
+          patient we serve
+          <Buttons btns="View our works" className="" />
         </div>
-
-        <h1>Helping Your</h1>
-        <h1>Stay Happy One</h1>
-        <Buttons btns="View our works" />
-      </div> */}
+      </div>
+      <Allcards />
     </div>
   );
 }
