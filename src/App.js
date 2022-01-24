@@ -12,9 +12,9 @@ function App() {
         <img src={bgimage} />
       </div>
 
-      <div className="bg-[url('./images/img1.jpg')] hidden md:flex min-w-full min-h-screen bg-no-repeat bg-cover px-20">
-        <Tagline tagLine="Helping Your" />
-        <Tagline tagLine="Stay Happy One" className="text-blue-400" />
+      <div className="bg-[url('./images/img1.jpg')] hidden md:flex flex-col min-w-full min-h-screen bg-no-repeat bg-cover md:p-28">
+        <Tagline tagLine="Helping Your" className="text-blue-500" />
+        <Tagline tagLine="Stay Happy One" />
         <Tagline tagLine2="One Everyday we bring hope and smile to the patient we serve" />
         <Buttons btns="View our works" />
       </div>
