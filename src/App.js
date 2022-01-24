@@ -9,10 +9,10 @@ function App() {
     <div>
       <Navbar />
       <div className="mx-auto md:hidden">
-        <img src={bgimage} />
+        <img src={bgimage} alt="" />
       </div>
 
-      <div className="bg-[url('./images/img1.jpg')] hidden md:flex flex-col min-w-full min-h-screen bg-no-repeat bg-cover md:p-28">
+      <div className="bg-[url('./images/img1.jpg')] hidden sm:p-4 md:flex flex-col min-w-full min-h-screen bg-no-repeat bg-cover md:p-28">
         <Tagline tagLine="Helping Your" className="text-blue-500" />
         <Tagline tagLine="Stay Happy One" />
         <Tagline tagLine2="One Everyday we bring hope and smile to the patient we serve" />
